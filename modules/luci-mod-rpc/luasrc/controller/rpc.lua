@@ -25,7 +25,7 @@ function index()
 	end
 
 	local rpc = node("rpc")
-	rpc.sysauth = "root"
+	rpc.sysauth = "admin"
 	rpc.sysauth_authenticator = authenticator
 	rpc.notemplate = true
 
